@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#0E0E12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CarromAssist"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:background="#1B1B22"
+            android:text="Idle"
+            android:textColor="#B9B9C6"
+            android:textSize="13sp" />
+
+        <Button android:id="@+id/btnOverlay"  android:layout_marginTop="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="1. Grant Draw-Over-Apps permission" />
+
+        <Button android:id="@+id/btnAcc" android:layout_marginTop="8dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="2. Enable Gesture Accessibility service" />
+
+        <Button android:id="@+id/btnStart" android:layout_marginTop="8dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="3. Start capture" />
+
+        <Button android:id="@+id/btnStop" android:layout_marginTop="8dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Stop capture" />
+
+        <Button android:id="@+id/btnCalib" android:layout_marginTop="8dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="4. Calibrate board" />
+
+        <Button android:id="@+id/btnTune" android:layout_marginTop="8dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Physics tuning" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#6E6E7C"
+            android:textSize="12sp"
+            android:text="Order matters. Start capture first, then open Carrom Pool and hit Calibrate. Tap the four inner corners of the playing surface: top-left, top-right, bottom-right, bottom-left." />
+
+    </LinearLayout>
+</ScrollView>

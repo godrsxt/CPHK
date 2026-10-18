@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CarromAssist" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#111111</item>
+    </style>
+    <style name="Theme.CarromAssist.Fullscreen" parent="Theme.CarromAssist">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

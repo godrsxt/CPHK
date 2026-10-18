@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CarromAssist</string>
+    <string name="acc_desc">Injects aim gestures into Carrom Pool. No root required.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.venice.carromassist.CalibrationView
+        android:id="@+id/calibView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="#CC000000"
+        android:padding="10dp">
+
+        <Button android:id="@+id/btnAuto" android:layout_width="0dp"
+            android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="Auto" />
+        <Button android:id="@+id/btnReset" android:layout_width="0dp"
+            android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="Reset" />
+        <Button android:id="@+id/btnSave" android:layout_width="0dp"
+            android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="Save" />
+    </LinearLayout>
+</FrameLayout>
